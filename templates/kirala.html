@@ -1,0 +1,47 @@
+{% extends "evler_template.html" %}
+{% block content %}
+<form method="post" action="/dolu_ev?_id={{ ev_id }}">
+    <div class="form-group">
+        <font size="6">Adres</font>
+        <input type="text" readonly class="form-control" name="adres" value="{{ ev_adresi }}">
+    </div>
+    <div class="form-group">
+        <font size="6">Ev Sahibi</font>
+        <input type="text" readonly class="form-control" name="ev_sahibi" value="{{ ev_sahibi_adi }}">
+    </div>
+    <div class="form-group">
+        <font size="6">Kiracı</font>
+        <br>
+        <select required class="form-control input-lg selectpicker" data-live-search="true" name="kiraci_id">
+            <option></option>
+            {%- for kiraci in bos_kiracilar %}
+            <option value="{{ kiraci[0] }}"> {{ kiraci[1] +" "+ kiraci[2] }}</option>
+            {%- endfor %}
+        </select>
+    </div>
+    <div class="form-group">
+        <font size="6">Kontrat Tarihi</font>
+        <input class="form-control" type="date" required name="kontrat_tarihi">
+    </div>
+    <div class="form-group">
+        <font size="6">Kontrat Fiyatı</font>
+        <input class="form-control" type="number" required name="kontrat_fiyati">
+    </div>
+    <div class="form-group">
+        <font size="6">Depozito</font>
+        <input class="form-control" type="number" required name="depozito">
+    </div>
+    <div class="form-group">
+        <font size="6">Kontrat No</font>
+        <input class="form-control" type="text" required name="kontrat_no">
+    </div>
+    <div class="form-group">
+        <font size="6">Not</font>
+        <textarea class="form-control" name="not" rows="4"></textarea>
+    </div>
+    <button type="submit" name="kirala" class="btn btn-success btn-lg btn-block">
+        <span class="buttons">Ekle</span>
+    </button>
+
+</form>
+{% endblock %}

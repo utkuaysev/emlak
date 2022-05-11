@@ -1,0 +1,56 @@
+{% extends "evler_template.html" %}
+{% block content %}
+<form method="POST" action="/evler?dolu=0" onSubmit="return confirm('Bu işlem için emin misiniz?');">
+    <input hidden="true" name="ev_id" value="{{ ev[0] }}">
+    <div class="form-group">
+        <font size="5">Adres</font>
+        <input type="text" class="form-control" name="adres" value="{{ ev[1] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Ev Sahibi</font>
+        <input type="text" readonly class="form-control" name="ev_sahibi" value="{{ ev[2]+' '+ev[3]}}">
+    </div>
+    <div class="form-group">
+        <font size="5">Telefon</font>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telefon"
+               readonly class="form-control" value={{ ev[4] }}>
+    </div>
+    <div class="form-group">
+        <font size="6">Not</font>
+        <textarea class="form-control" name="ev_not" rows="5">{{ ev[6] }}</textarea>
+    </div>
+    <br>
+    <button type="submit" name="delete" class="btn btn-danger btn-lg btn-block">
+        <span class="buttons">Sil</span>
+    </button>
+    <br>
+    <button name="update" class="btn btn-success btn-lg btn-block">
+        <span class="buttons">Güncelle</span>
+    </button>
+</form>
+
+<br>
+<a id="kirala" href="/kirala?ev_id={{ ev[0] }}" class="btn btn-warning btn-lg btn-block">
+    <span class="buttons">Kirala</span>
+</a>
+<br>
+<a href="/kiralamalar?ev_id={{ ev[0] }}" class="btn btn-info btn-lg btn-block">
+    <span class="buttons">Kiralamalar</span>
+</a>
+
+<br>
+<br>
+<button style="display: none;" id="belgeler" class="btn btn-warning btn-lg btn-block">
+    <span class="buttons">Belgeler</span>
+</button>
+<br>
+<button style="display: none;" id="ev_sahipleri" class="btn btn-secondary btn-lg btn-block">
+    <span class="buttons">Ev Sahipleri</span>
+</button>
+<br>2
+
+
+<script>
+
+</script>
+{% endblock %}

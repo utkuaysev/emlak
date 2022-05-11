@@ -1,0 +1,52 @@
+{% extends "kisiler_template.html" %}
+{% block content %}
+<form method="POST" action="/kisiler?rol_id={{ kisi[1] }}" onSubmit="return confirm('Bu işlem için emin misiniz?');">
+    <input hidden="true" name="_id" value="{{ kisi[0] }}">
+    <div class="form-group">
+        <font size="6">Ad</font>
+        <input type="text" required="required" class="form-control" name="ad" value="{{ kisi[2] }}">
+    </div>
+    <div class="form-group">
+        <font size="6">Soyad</font>
+        <input type="text" required="required" class="form-control" name="soyad" value={{ kisi[3] }}>
+    </div>
+    <div class="form-group">
+        <font size="6">Telefon</font>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telefon"
+               required="required" class="form-control" value={{ kisi[4] }}>
+    </div>
+    <div class="form-group">
+        <font size="6">Adres</font>
+        <textarea type="text" rows="1" class="form-control" name="adres" >{{ kisi[7] }}</textarea>
+    </div>
+    <div class="form-group">
+        <font size="6">Mail Adresi</font>
+        <input type="text" placeholder="X@X.com" class="form-control" name="mail_adres" value={{ kisi[8] }}>
+    </div>
+    <div class="form-group">
+        <font size="6">Not</font>
+        <textarea class="form-control" name="not" rows="5" >{{ kisi[6] }}</textarea>
+    </div>
+
+    <br>
+    <button type="submit" name="delete" class="btn btn-danger btn-lg btn-block">
+        <span class="buttons">Sil</span>
+    </button>
+    <br>
+    <button type="submit" name="update" class="btn btn-success btn-lg btn-block">
+        <span class="buttons">Güncelle
+        </span></button>
+</form>
+<br>
+<button style="display: none;" id="kimlikler" class="btn btn-warning btn-lg btn-block">
+    <span class="buttons">Kimlikler</span>
+</button>
+<br>
+<button style="display: none;" id="kiralanan_evler" class="btn btn-info btn-lg btn-block">
+    <span class="buttons">{{rol_specific_info[0]}}</span>
+</button>
+
+<script>
+
+</script>
+{% endblock %}

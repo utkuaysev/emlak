@@ -1,0 +1,69 @@
+{% extends "evler_template.html" %}
+{% block content %}
+<style>
+div.update {
+display: table; margin: 20px; padding: 12px; box-sizing: border-box;}
+div.t {
+    font-size:200%;
+    display: table-cell;
+    width: 100%;
+    margin: 2px;
+}
+div.t > input {
+    width: 100%;
+    margin: 1px;
+    box-sizing: border-box;
+}
+div.update_not{
+    display:inline-block;
+    position:relative;
+}
+
+#update_not{
+ position:absolute;
+ bottom:10px;
+ right:10px;
+}
+
+</style>
+<input hidden="true" name="kiralama_id" value="{{ kiralama_id }}">
+<div class="form-group">
+    <font size="5">Adres</font>
+    <input type="text" readonly class="form-control" name="adres" value="{{ adres }}">
+</div>
+
+<div class="container">
+    <h1>
+        <font size="22">
+            Kiralama Listesi
+        </font>
+    </h1>
+    <font size="5">
+        <table class="table" id="kiralama_table">
+            <thead>
+            <th>Kiracı Ad Soyad</th>
+            <th>Çıkış Tarihi</th>
+            <th>Kontrat No</th>
+            <th>Sil</th>
+            </thead>
+            <tbody id="kiralama_body">
+            {%- for row in kiralamalar %}
+            <tr>
+                <td><a href="/kisi?_id={{ row[0]|string }}"> {{ row[1] + " " + row[2] }}</a></td>
+                <td> {{ row[4] }}</td>
+                <td> {{ row[5] }}</td>
+                <form method="post" onSubmit="return confirm('Bu kiralama bilgisinin silinmesi için emin misiniz?');">
+                    <td>
+                        <input type="hidden" name="kiralama_id" value={{ row[3] }}>
+                        <button type="submit" class="btn btn-default btn-lg" name="delete">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                        </button>
+                    </td>
+                </form>
+            </tr>
+            {%- endfor %}
+            </tbody>
+        </table>
+    </font>
+</div>
+{% endblock %}

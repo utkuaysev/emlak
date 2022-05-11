@@ -1,0 +1,56 @@
+{% extends "evler_template.html" %}
+{% block content %}
+{% if success_message != 'None' %}
+<font size="14">
+    <div class="alert alert-success" id="success-alert">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <strong>Başarılı! </strong> {{ success_message }}
+    </div>
+</font>
+{% endif %}
+<div class="container">
+    <h1>
+        <font size="22">
+            {{ tip_for_header }}
+        </font>
+    </h1>
+    <input class="form-control" id="search_box" type="text" placeholder="Ara">
+    <br>
+    <font size="5">
+        <table class="table" id="evler_table">
+            <thead>
+            {%- for column_name in column_names %}
+            <th>{{ column_name }}</th>
+            {%- endfor %}
+            </thead>
+            <tbody id="ev_table_body">
+            {%- for row in evler %}
+            <tr>
+                <td><a href="{{ view_url + row[0]|string }}"> {{ row[1] }}</a></td>
+                <td><a href="/kisi?_id={{ row[2]|string }}"> {{ row[3] + " " + row[4] }}</a></td>
+                <td>{{ row[5] }}</td>
+                <td><a href="/kisi?_id={{ row[6]|string }}"> {{ row[7] + " " + row[8] }}</a></td>
+                <td>{{ row[9] }}</td>
+                <td>{{ row[10] }}</td>
+                <td>{{ row[11] }}</td>
+                <td><a href="{{ view_url + row[0]|string }}"> {{ row[12] }}</a></td>
+            </tr>
+            {%- endfor %}
+            </tbody>
+        </table>
+    </font>
+</div>
+<script>
+$(document).ready(function(){
+  $("#search_box").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#ev_table_body tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+
+
+</script>
+{% endblock %}

@@ -1,0 +1,106 @@
+{% extends "evler_template.html" %}
+{% block content %}
+{% if success_message != 'None' %}
+<font size="14">
+    <div class="alert alert-success" id="success-alert">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <strong>Başarılı! </strong> {{ success_message }}
+    </div>
+</font>
+{% endif %}
+
+<form method="POST" action="/evler?dolu=1" onSubmit="return confirm('Bu işlem için emin misiniz?');">
+    <input hidden="true" name="ev_id" value="{{ ev[0] }}">
+    <input hidden="true" name="kiralama_id" value="{{ ev[16] }}">
+    <div class="form-group">
+        <font size="5">Adres</font>
+        <input type="text" class="form-control" name="adres" value="{{ ev[1] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Ev Sahibi</font>
+        <input type="text" readonly class="form-control" name="ev_sahibi" value="{{ ev[2]+' '+ev[3]}}">
+    </div>
+    <div class="form-group">
+        <font size="5">Ev Sahibi Telefon</font>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telefon"
+               readonly class="form-control" value={{ ev[4] }}>
+    </div>
+    <div class="form-group">
+        <font size="5">Kiraci</font>
+        <input type="text" readonly class="form-control" name="kiraci" value="{{ ev[5]+' '+ev[6]}}">
+    </div>
+    <div class="form-group">
+        <font size="5">Kiraci Telefon</font>
+        <input type="text" readonly class="form-control" name="telefon_kiraci" value="{{ ev[7] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Kontrat Tarihi</font>
+        <input type="date" class="form-control" name="kontrat" value="{{ ev[8] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Kontrat Fiyatı</font>
+        <input type="number" class="form-control" name="kontrat_fiyat" value="{{ ev[9] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Güncelleme Tarihi</font>
+        <input type="text" readonly class="form-control" name="guncelleme" value="{{ ev[10] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Güncel Fiyat</font>
+        <input type="text" readonly class="form-control" name="guncelleme_fiyat" value="{{ ev[11] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Depozito</font>
+        <input type="number" class="form-control" name="depozito" value="{{ ev[12] }}">
+    </div>
+    <div class="form-group">
+        <font size="5">Kontrat No</font>
+        <input type="number" class="form-control" name="kontrat_no" value="{{ ev[13] }}">
+    </div>
+    <div class="form-group">
+        <font size="6">Evle İlgili Not</font>
+        <textarea class="form-control" name = "ev_not" rows="5">{{ ev[14] }}</textarea>
+    </div>
+    <div class="form-group">
+        <font size="6">Kiralamayla İlgili Not</font>
+        <textarea class="form-control" name="kiralama_not" rows="5">{{ ev[15] }}</textarea>
+    </div>
+    <br>
+    <button type="submit" name="delete" class="btn btn-danger btn-lg btn-block">
+        <span class="buttons">Sil
+        </span>
+    </button>
+    <br>
+    <button type="submit" name="update" class="btn btn-success btn-lg btn-block">
+        <span class="buttons">Güncelle
+        </span>
+    </button>
+    <br>
+    <button type="submit" name="cikar" class="btn btn-warning btn-lg btn-block">
+        <span class="buttons">Kiracı Çıkar
+        </span>
+    </button>
+</form>
+<br>
+<a href="/detay?kiralama_id={{ ev[16] }}&adres={{ ev[1] }}" class="btn btn-info btn-lg btn-block">
+    <span class="buttons">Fiyat Detayı</span>
+</a>
+<br>
+<a href="/kiralamalar?ev_id={{ ev[0] }}" class="btn btn-info btn-lg btn-block">
+    <span class="buttons">Kiralamalar</span>
+</a>
+<br>
+
+<br>
+<button style="display: none;"  id="ev_sahipleri" class="btn btn-secondary btn-lg btn-block">
+    <span  class="buttons">Ev Sahipleri</span>
+</button>
+<br>
+<button style="display: none;" id="kiralamalar" class="btn btn-primary btn-lg btn-block">
+    <span  class="buttons">Kiralamalar</span>
+</button>
+
+<script>
+
+</script>
+{% endblock %}

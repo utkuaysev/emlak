@@ -1,0 +1,40 @@
+{% extends "kisiler_template.html" %}
+{% block content %}
+
+<font size="22">
+    {{ tip_for_header }} Ekle
+</font>
+
+<form method="POST" action="/kisiler?rol_id={{rol_id}} ">
+    <div class="form-group">
+        <font size="6">Ad</font>
+        <input type="text" required="required" class="form-control" name="ad">
+    </div>
+    <div class="form-group">
+        <font size="6">Soyad</font>
+        <input type="text" required="required" class="form-control" name="soyad">
+    </div>
+    <div class="form-group">
+        <font size="6">Telefon</font>
+        <input type="tel" placeholder="5XX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telefon"
+               required="required" class="form-control">
+    </div>
+    <div class="form-group">
+        <font size="6">Adres</font>
+        <input type="text" class="form-control" name="adres">
+    </div>
+    <div class="form-group">
+        <font size="6">Mail Adresi</font>
+        <input type="email" placeholder="X@X.com" class="form-control" name="mail_adres">
+    </div>
+    <div class="form-group">
+        <font size="6">Not</font>
+        <textarea class="form-control" name="not" rows="4"></textarea>
+    </div>
+    <br>
+    <button type="submit" name="create" class="btn btn-success btn-lg btn-block">
+        <span class="buttons">Ekle</span>
+    </button>
+    <br>
+</form>
+{% endblock %}

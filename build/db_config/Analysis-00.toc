@@ -1,0 +1,1026 @@
+(['C:\\Users\\Utku Aysev\\PycharmProjects\\emlak-web\\db_config.py'],
+ ['C:\\Users\\Utku Aysev\\PycharmProjects\\emlak-web',
+  'C:\\Users\\Utku Aysev\\PycharmProjects\\emlak-web'],
+ ['sqlite3', 'codecs'],
+ ['c:\\users\\utku '
+  'aysev\\pycharmprojects\\emlak-web\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'c:\\users\\utku '
+  'aysev\\pycharmprojects\\emlak-web\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
+  'c:\\users\\utku '
+  'aysev\\pycharmprojects\\emlak-web\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
+  'c:\\users\\utku '
+  'aysev\\pycharmprojects\\emlak-web\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
+  'c:\\users\\utku '
+  'aysev\\pycharmprojects\\emlak-web\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ [],
+ [],
+ False,
+ False,
+ '3.8.4 (tags/v3.8.4:dfa645a, Jul 13 2020, 16:30:28) [MSC v.1926 32 bit '
+ '(Intel)]',
+ [('pyi_rth_multiprocessing',
+   'C:\\Users\\Utku '
+   'Aysev\\PycharmProjects\\emlak-web\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('db_config',
+   'C:\\Users\\Utku Aysev\\PycharmProjects\\emlak-web\\db_config.py',
+   'PYSOURCE')],
+ [('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\random.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ssl.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\hmac.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tty.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\runpy.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ast.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\token.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\stat.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\os.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE')],
+ [('_multiprocessing',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_overlapped',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_asyncio',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_sqlite3',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python38.dll',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\python38.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\libffi-7.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\DLLs\\sqlite3.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\Utku '
+   'Aysev\\PycharmProjects\\emlak-web\\build\\db_config\\base_library.zip',
+   'DATA'),
+  ('Include\\pyconfig.h',
+   'C:\\Users\\Utku '
+   'Aysev\\AppData\\Local\\Programs\\Python\\Python38-32\\Include\\pyconfig.h',
+   'DATA')],
+ [])

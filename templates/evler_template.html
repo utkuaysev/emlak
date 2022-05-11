@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.js"></script>
+    <style type="text/css">
+
+
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:nth-child(odd) {
+ background-color: #fff;
+}
+th {
+  background-color: black;
+  color: white;
+}
+    .nav a{
+            font-size: 2.5em ;
+    }
+    .buttons {
+            font-family: Arial,Helvetica,sans-serif;
+            font-size: 19px;
+     }
+    .form-control {
+        font-size:200%;
+     }
+    select {
+        font-family: Arial, sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        -webkit-appearance: none;
+    }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Anasayfa</a></li>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/evler?dolu=1">Dolu Evler</a></li>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/evler?dolu=0">Boş Evler</a></li>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/evler?dolu=2">Kirası Artacak Evler</a></li>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/kisiler_anasayfa">Kişiler</a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+<div class="container">
+    <br>
+    {% block content %}{% endblock %}
+    <br>
+</div>
+</nav>
+</body>
+</html>

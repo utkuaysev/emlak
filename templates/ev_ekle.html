@@ -1,0 +1,26 @@
+{% extends "evler_template.html" %}
+{% block content %}
+<form action="/evler?dolu=0" method="post">
+    <div class="form-group">
+        <font size="6">Ev Sahibi</font>
+        <br>
+        <select required class="form-control input-lg selectpicker" data-live-search="true" name="ev_sahibi_id">
+              <option></option>
+            {%- for ev_sahibi in ev_sahipleri %}
+            <option value="{{ ev_sahibi[0] }}"> {{ ev_sahibi[1] +" "+ ev_sahibi[2] }}</option>
+            {%- endfor %}
+        </select>
+    </div>
+    <div class="form-group">
+        <font size="6">Adres</font>
+        <input type="text" required class="form-control" name="adres">
+    </div>
+    <div class="form-group">
+        <font size="6">Not</font>
+        <textarea class="form-control" name="yeni_ev_not" rows="4"></textarea>
+    </div>
+    <button type="submit" name="create" class="btn btn-success btn-lg btn-block">
+        <span class="buttons">Ekle</span>
+    </button>
+</form>
+{% endblock %}

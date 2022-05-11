@@ -1,0 +1,1 @@
+pyinstaller db_config.py --onefile --hidden-import=sqlite3
